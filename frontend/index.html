@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hodlinfo</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 id="title">Hodlinfo</h1>
+            <div class="middle">
+                <button>INR</button>
+                <button>BTC</button>
+                <button>Buy BTC</button>
+            </div>
+
+            <button id="telegram">
+                <i class="fa fa-telegram" aria-hidden="true"></i>Connect Telegram</button>
+
+        </div>
+
+        <div class="middle-txt">
+            <h2>Best Price To Trade</h2>
+        </div>
+
+        <div class="main-txt">
+            <h1>0.1%</h1>
+            <h1>0.96%</h1>
+            <h1 id="num">₹ 26,56,110</h1>
+            <h1>2.73%</h1>
+            <h1>7.51%</h1>
+        </div>
+
+        <div class="main-txt">
+            <h3>5 mins</h3>
+            <h3>1 Hour</h3>
+            <h3 id="txt">Average BTC/INR net price including comissions</h3>
+            <h3>1 Day</h3>
+            <h3>7 Days</h3>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Last Price</th>
+                    <th>Buy Price</th>
+                    <th>Sell Price</th>
+                    <th>Volume</th>
+                    <th>Base Unit</th>
+                </tr>
+            </thead>
+            <tbody id="crypto-table-body">
+                <!-- Data will be populated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
