@@ -1,6 +1,6 @@
 async function fetchCryptos() {
     try {
-        const response = await fetch('http://localhost:3300/api/cryptos');
+        const response = await fetch('https://crypto-data-r78f.onrender.com/api/cryptos');
         const data = await response.json();
 
         const tableBody = document.getElementById('crypto-table-body');
